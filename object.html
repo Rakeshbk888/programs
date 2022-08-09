@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        //Creating by object literally
+        let person = {
+           firstName:'Rakesh',
+           lastName:'Karki',
+           tech:'JS',
+           age:28,
+           marks:{
+            science:70,
+            maths:35
+           }
+        }
+        document.write(person.firstName,'<br>');
+        document.write(person.lastName,'<br>');
+        document.write(person.tech,'<br>');
+        document.write(person.age,'<br>');
+        document.write(person.marks.science,'<br>');
+        document.write(person.marks.maths,'<br>');
+
+        //Creating by object literally
+        
+        let emp = {
+            id:101,
+            firstName:'Rakesh',
+            lastName:'Karki',
+            age:28,
+            location:'Bangalore',
+            position:'trainy'
+        }
+        document.write(emp.id+'<br> '+emp.firstName+'<br> '+emp.lastName+'<br> '+emp.age+'<br> '+emp.location+' <br>'+emp.position);
+
+        //Creating by instance object
+
+        let emp1  = new Object();
+        emp1.id=101;
+        emp1.firstName='Rakesh';
+        emp1.lastName='Karki';
+        emp1.age=28;
+        emp1.location='Bangalore';
+        emp1.position='trainy';
+        document.write(emp1.id+' '+emp1.firstName+' '+emp1.lastName+' '+emp1.age+' '+emp1.location+' '+emp1.position);
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>

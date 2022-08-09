@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        const users = [
+        {firstName:"Rakesh", lastName:"Karki", age:28},
+        {firstName:"Shashi", lastName:"Naik", age:28},
+        {firstName:"Vasanth", lastName:"Kulkarni", age:30},
+        {firstName:"Naveen", lastName:"Vaali", age:28},
+        {firstName:"Suprith", lastName:"Bhandi", age:28},
+        ];
+
+     let output=  users.map((val) =>{ 
+        
+       return(val.firstName)
+    })
+            
+        document.write(output);
+
+        //Array
+
+        let userage=[10,20,30,40,50]
+
+        user = users.filter((x)=>{
+        return x.age===30;
+        })
+        console.log(user);
+
+        let heroes = [
+	 {name: "Batman", franchise: "DC"},
+	 {name: "Ironman", franchise: "Marvel"},
+	 {name: "Thor", franchise: "Marvel"},
+	 {name: "Superman", franchise: "DC"}
+      ];
+
+     let marvelHeroes =  heroes.filter((hero) =>{
+	 return hero.franchise == "Marvel";
+     });
+    console.log(marvelHeroes);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

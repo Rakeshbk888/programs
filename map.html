@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        //Map Function..
+        /*
+        const arr = [5 , 3, 1, 2, 6 ];
+        function double(x){
+            return x*2;
+        }
+
+        let output = arr.map(double);
+        document.write(output);*/
+
+        /*
+        const arr = [5, 3, 1, 2, 6];
+        function triple(x){
+            return x*3;
+        }
+
+        let output = arr.map(triple);
+        document.write(output);*/
+
+        //Filter Function..
+        /*
+        const arr = [5, 3, 1, 2, 6];
+        function isOdd(x){
+            return x%2;
+        }
+
+        let output = arr.filter(isOdd);
+        document.write(output);*/
+
+        /*
+        const arr = [5, 3, 1, 2, 6];
+        function isEven(x){
+            return x%2 === 0;
+        }
+
+        let output = arr.filter(isEven);
+        document.write(output);*/
+
+        //Reduce function..
+        /*
+        const arr = [5, 3, 1, 2, 6];
+         let output = arr.reduce(function(sum,num){
+            sum= sum +num;
+            return sum;
+         });
+
+         document.write(output);*/
+
+         const arr = [5, 3, 1, 2, 6];
+         let output = arr.reduce(function(max,cur){
+            if(cur>max){
+                max=cur;
+            }
+            return max;
+         },0)
+         document.write(output);
+
+
+
+
+    </script>
+</head>
+<body>
+    
+    
+</body>
+</html>
